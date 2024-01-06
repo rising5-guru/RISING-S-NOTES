@@ -1,0 +1,174 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5d1d6; /* Attractive light pink background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ensure the entire viewport height is covered */
+  }
+  
+  .header-content {
+    background-position: 100dvb;
+    background-color: #b08c98c1;
+    color: #ffffff; 
+    text-align: center;
+    padding: 20px 30px;
+    width: full;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 51%, #ffecd2 100%)
+    
+   
+  }
+  .header-content:hover {
+    color: #080000;
+    background-color: #ffffff;
+   
+  }
+
+  @keyframes backgroundAnimation {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 100% 0;
+    }
+  }
+  
+  @keyframes scaleAnimation {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+  }
+  
+  h2 {
+    color: #e3e6f7; /* Royal blue text color for h2 */
+  }
+  
+  .tech-elements {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .tech-element {
+    background-color: #ffccbc; 
+    padding: 20px;
+    border-radius: 30px;
+    text-align: right;
+    transition: transform 0.5s ease-in-out;
+    border: 1px solid #d32f2f; /* Dark red border */
+    margin: 20px;
+    padding: 0.6em 1.2em;
+    border-radius: 0.375em;
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(120deg, rgb(208, 149, 208), rgba(220, 20, 60, 0.8), rgba(229, 130, 0, 0.634));
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    transition: background-position .5s;
+
+  
+  }
+  
+  .tech-element:hover {
+    background-position: 0 0;
+    transform: scale(1.2);
+    color: rgb(253, 215, 0); 
+  }
+  
+  .download-button {
+    background-color: #81e192e0; /* Deep orange button background */
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #3e3a3ae4;
+    transition: background-color 1s ease-out;
+  }
+  
+  .download-button:hover {
+    color: #080000;
+    background-color: #ffffff;
+    transform: scale(1.2);
+  }
+  @import url(https://fonts.googleapis.com/css?family=Exo:100);
+/* Background data (Original source: https://subtlepatterns.com/grid-me/) */
+/* Animations */
+@-webkit-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-moz-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-o-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-webkit-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+@-moz-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+@-o-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+@keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+/* Main styles */
+body {
+  margin-top: 13.5rem;
+  color: #999;
+  font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
+  text-align: center;
+  /* img size is 50x50 */
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC") repeat 0 0;
+  -webkit-animation: bg-scrolling-reverse 0.92s infinite;
+  /* Safari 4+ */
+  -moz-animation: bg-scrolling-reverse 0.92s infinite;
+  /* Fx 5+ */
+  -o-animation: bg-scrolling-reverse 0.92s infinite;
+  /* Opera 12+ */
+  animation: bg-scrolling-reverse 0.92s infinite;
+  /* IE 10+ */
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+body::before {
+  content: "Rising5.guru";
+  font-size: 8rem;
+  font-weight: 100;
+  font-style: normal;
+}
+
+  
