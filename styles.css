@@ -23,6 +23,7 @@ body {
    
   }
   .header-content:hover {
+    box-shadow: #1493ed;
     color: #080000;
     background-color: #ffffff;
    
@@ -70,7 +71,7 @@ body {
     border-radius: 0.375em;
     cursor: pointer;
     color: white;
-    background: linear-gradient(120deg, rgb(208, 149, 208), rgba(220, 20, 60, 0.8), rgba(229, 130, 0, 0.634));
+    background: linear-gradient(120deg, rgb(208, 149, 208), rgba(220, 20, 60, 0.8), rgba(229, 130, 0, 0.681));
     background-size: 200% 100%;
     background-position: 100% 0;
     transition: background-position .5s;
@@ -86,18 +87,18 @@ body {
   
   .download-button {
     background-color: #81e192e0; /* Deep orange button background */
-    color: #ffffff;
+    color: #000000;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    background-color: #3e3a3ae4;
+    background-color: #ffffff;
     transition: background-color 1s ease-out;
   }
   
   .download-button:hover {
-    color: #080000;
-    background-color: #ffffff;
+    color: #91ff00;
+    background-color: #1493ed;
     transform: scale(1.2);
   }
   @import url(https://fonts.googleapis.com/css?family=Exo:100);
