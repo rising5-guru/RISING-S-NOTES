@@ -12,20 +12,23 @@ body {
   
   .header-content {
     background-position: 100dvb;
-    background-color: #b08c98c1;
+    background-color: #ed63e4b4;
     color: #ffffff; 
     text-align: center;
     padding: 20px 30px;
     width: full;
     border-radius: 30px;
-    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 51%, #ffecd2 100%)
-    
+    box-shadow: 0 0 25px 1px #ff9100;
+    transition: background-position .5s;
+    transition: transform 0.5s ease-out;
    
   }
   .header-content:hover {
-    box-shadow: #1493ed;
-    color: #080000;
     background-color: #ffffff;
+    transform: scale(1.2);
+    color: rgb(0, 0, 0); 
+    border-radius: 30px;
+    box-shadow: 0 0 25px 1px #0a92cdb8;
    
   }
 
@@ -74,15 +77,18 @@ body {
     background: linear-gradient(120deg, rgb(208, 149, 208), rgba(220, 20, 60, 0.8), rgba(229, 130, 0, 0.681));
     background-size: 200% 100%;
     background-position: 100% 0;
-    transition: background-position .5s;
+    transition:  border-radius background-color color transform 1s easy-in-out;
 
   
   }
   
   .tech-element:hover {
+    border: 1px solid #ff0707;
+    box-shadow: 0 0 50px 2px #fb020293;
+    transform: scale(1.2);
     background-position: 0 0;
     transform: scale(1.2);
-    color: rgb(253, 215, 0); 
+    color: rgb(0, 0, 0); 
   }
   
   .download-button {
